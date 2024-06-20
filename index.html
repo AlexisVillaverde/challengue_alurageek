@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-form.css">
+    <link rel="stylesheet" href="css/flexbox.css">
+    <title>Alurageek</title>
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header id="logo"><a href="index.html"><img src="images/Logo.svg" ></a></header>
+    <section class="container__principal">
+        
+        <div class="container__productos__principal">
+            <h1 class="titulo__principal">MIS PRODUCTOS</h1>
+            <div class="container__cards">
+                <ul class="productos__container" alt="videos alura" data-lista>
+
+                    <!-- <li class="product__card">
+                        <img src="images/stormtropper.svg" alt="stormtropper">
+                        <p class="title__card">Stormtropper</p>
+                        <div class="description">
+                            <p class="precio">$60.00 </p>
+                            <button type="button" class="trash_dbutton" data-id="3"><img src="images/🦆 icon _trash 2_.svg" class="trash"></button>
+                        </div>
+                    </li> -->
+                </ul>
+            </div>
+            
+        </div>
+        <div class="form">
+            <form class="container__formulario" data-formulario >
+                <h2 class="formulario__titulo">Agrega un<br>producto!</h3>
+                    <fieldset class="formulario__campo">
+                        <input name="name" class="campo__escrita" required placeholder="nombre..." id='name' type="text" data-name/>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+                    <fieldset class="formulario__campo">
+                        <input name="precio" class="campo__escrita" required
+                            placeholder="precio..." id='precio' type="number" data-precio/>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+                    <fieldset class="formulario__campo">
+                        <input name="imagen" class="campo__escrita" required
+                            placeholder="imagen..." id='imagen' data-imagen/>
+                        <span class="mensaje-error"></span>
+                    </fieldset>
+                    <div class="botones">
+                        <input value="Enviar" class="formulario__boton" class="botones enviar" id="enviar"  data-boton-enviar type="submit"/>
+                        <input value="Limpiar" class="formulario__boton" class="botones limpiar" id="limpiar"  data-boton-limpiar type="reset"/>
+                    </div>
+            </form>
+        </div>
+    </section>
+</body>
+<footer>
+    <div class="footer">
+        <img src="images/Logo.svg" alt="Alurageek">
+        <p>DESARROLLADO POR FRANCISCO ALEXIS VILLAVERDE GARCÍA</p><br>
+        <p>Alura Latam- 2024</p>
+    </div>
+</footer>
+<script src="./js/mostrarProductos.js" type="module"></script>
+<script src="./js/agregarProducto.js" type="module"></script>
+
+</html>

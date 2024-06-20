@@ -1,0 +1,27 @@
+.container__principal{
+    margin-top: 50px;
+    display: flex;
+    gap: 70px;
+    width: 100%;
+}
+
+.productos__container{
+    display: flex;
+    flex-flow: wrap;
+    gap: 10px;
+}
+
+.product__card{
+    display: flex;
+    flex-flow: column;
+    padding: 10px;
+    gap: 10px;
+}
+
+.product__card img{
+    align-self: center;
+}
+
+.botones{
+    display: flex;
+}

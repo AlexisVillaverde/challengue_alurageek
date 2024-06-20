@@ -1,0 +1,28 @@
+{
+  "productos": [
+    {
+      "id": "65e5",
+      "nombre": "Capitan America",
+      "precio": "30.00",
+      "img": "https://i5.walmartimages.com.mx/mg/gm/3pp/asr/3bd41328-c8fb-411d-b489-f39e84cea78f.fa09cbb96de18833a0c8e0baddb027af.jpeg?odnHeight=2000&odnWidth=2000&odnBg=ffffff"
+    },
+    {
+      "id": "1906",
+      "nombre": "StarLord",
+      "precio": "20.00",
+      "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcWK7nUMxlTTJcSQEmNxWs4pUtlytu6xtpGg&s"
+    },
+    {
+      "id": "3405",
+      "nombre": "Hulk",
+      "precio": "20.00",
+      "img": "https://m.media-amazon.com/images/I/51onQMeq0KL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "id": "4de1",
+      "nombre": "IronMan",
+      "precio": "20.00",
+      "img": "https://m.media-amazon.com/images/I/81CnvOG8+YL._AC_UF894,1000_QL80_.jpg"
+    }
+  ]
+}
